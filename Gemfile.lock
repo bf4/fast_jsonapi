@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/bf4/ams.git
+  revision: 13340790c5c162718a6a4fe2f8aa542f8ec3b23e
+  branch: dev
+  specs:
+    ams (0.99.0)
+
 PATH
   remote: .
   specs:
@@ -102,6 +109,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.10.7)
   activerecord (~> 5.0)
+  ams!
   bundler (~> 1.0)
   byebug
   fast_jsonapi!
